@@ -1,9 +1,13 @@
 #include "main.h"
+#include "stdio.h"
+
 /**
  * print_triangle - prints a triangle, followed by a new line
  * @size: size of the triangle
  */
 void print_triangle(int size)
+int _putchar(char c);
+
 {
 	if (size <= 0)
 	{
